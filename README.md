@@ -10,3 +10,15 @@ town judge exists, then:
 1) The town judge trusts nobody.
 2) Everybody (except for the town judge) trusts the town judge.
 3) There is exactly one person that satisfies properties 1 and 2.
+
+ let it be understood that the judge is connected to all vertices on the graph
+ as long as judge vertex has a connection to every vertex
+ judge trusts noone, but everyone trusts the judge
+ judge vertex must always be in the b position of trust[i]=[a,b]
+ because a trusts b, does not mean b trusts a
+Ordered Pair : A pair in which order matters and changing the order is not allowed is called an ordered pair. ex. (a, b) != (b, a) if a != b
+
+● Each item in the trust array is unique and different
+
+- Should we use a HashMap to implement this?
+
